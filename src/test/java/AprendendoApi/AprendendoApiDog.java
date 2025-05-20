@@ -27,6 +27,7 @@ public class AprendendoApiDog {
 						+ "  ],\r\n" + "  \"status\": \"available\"\r\n" + "}")
 				.when().post("https://petstore.swagger.io/v2/pet").then().log().all();
 
+	
 	}
 
 	//@Test 
